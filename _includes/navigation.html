@@ -1,0 +1,40 @@
+<ul class="navbar-nav my-3 my-lg-0">
+  {% for item in include.navigation %}
+  <li class="nav-item">
+    <div class="dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item" data-toggle="dropdown-grid" href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}role="button">{{ item.text }}</a>
+      <!-- <div class="row dropdown-menu">
+        <div class="col-auto" data-dropdown-content>
+          <div class="dropdown-grid-menu"><a href="/" class="dropdown-item fade-page">Overview</a><a href="landing-1.html" class="dropdown-item fade-page">Landing 1</a><a href="landing-2.html" class="dropdown-item fade-page">Landing 2</a><a href="landing-3.html"
+            class="dropdown-item fade-page">Landing 3</a><a href="landing-4.html" class="dropdown-item fade-page">Landing 4</a><a href="landing-5.html" class="dropdown-item fade-page">Landing 5</a><a href="landing-6.html" class="dropdown-item fade-page">Landing 6</a>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+<!-- <li class="nav-item">
+  <div class="dropdown">
+    <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link nav-item arrow-bottom" data-toggle="dropdown-grid" href="#" role="button">Features</a>
+    <div class="row dropdown-menu">
+      <div class="col-auto" data-dropdown-content>
+        <div class="dropdown-grid-menu"><a href="style-guide.html" class="dropdown-item fade-page">Style Guide</a><a href="plugins.html" class="dropdown-item fade-page">Plugins</a><a href="navigation-bars.html" class="dropdown-item fade-page">Navigation Bars</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li class="nav-item">
+  <div class="dropdown">
+    <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link nav-item arrow-bottom" data-toggle="dropdown-grid" href="#" role="button">Support</a>
+    <div class="row dropdown-menu">
+      <div class="col-auto" data-dropdown-content>
+        <div class="dropdown-grid-menu"><a href="documentation/index.html" class="dropdown-item" target="_blank">Documentation</a><a href="documentation/changelog.html" class="dropdown-item" target="_blank">Changelog</a><a href="https://mediumrare.ticksy.com/" class="dropdown-item"
+          target="_blank">Get Help</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li> -->

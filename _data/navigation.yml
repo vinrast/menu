@@ -1,0 +1,10 @@
+- text: Home
+  url: /
+- text: Case Studies
+  url: /case-studies
+- text: Research & Development
+  url: /research
+- text: Blog
+  url: /blog
+- text: Contact
+  url: /contact

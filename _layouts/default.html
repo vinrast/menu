@@ -1,0 +1,27 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="en">
+
+  {% include head.html %}
+
+  <body>
+    <div class="loader">
+      <div class="loading-animation"></div>
+    </div>
+
+    {% include header.html %}
+
+    <main>
+
+      {{ content }}
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
